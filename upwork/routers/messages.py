@@ -2,7 +2,7 @@
 # python-upwork
 # (C) 2010-2016 Upwork
 
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 from upwork.namespaces import Namespace
 
