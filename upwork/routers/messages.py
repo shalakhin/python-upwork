@@ -22,7 +22,7 @@ class Messages(Namespace):
 
         """
         url = '{0}/rooms'.format(company)
-	result = self.get(url, data=params)
+        result = self.get(url, data=params)
         return result.get(url, result)
 
     def get_room_details(self, company, room_id, params = {}):
